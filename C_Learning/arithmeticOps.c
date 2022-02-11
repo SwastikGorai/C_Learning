@@ -25,7 +25,7 @@ int main(void)
         break;
 
         case 4:
-        printf("%f", a/b);
+        printf("%0.4f", (float)a/b);
         break;
 
         default:
